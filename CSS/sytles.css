@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 3% 5%;
+    background-image: url("../images/bg-hero-desktop.svg");
 }
 
 .first-bar {
@@ -23,6 +24,7 @@ body {
     font-weight: 600;
     font-style: normal;
     border: 0;
+    box-shadow: 0.5px 0.5px 5px 5px hsl(208, 11%, 55%);
 }
 
 .second-bar {
@@ -68,7 +70,7 @@ h1 {
     gap: 200px;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 3px 3px 10px 10px lightblue;
+    box-shadow: 0.5px 0.5px 5px 5px hsl(208, 11%, 55%);
     border-radius: 10px;
     padding: 5%;
     margin: 5rem;
