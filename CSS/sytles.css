@@ -30,16 +30,21 @@ body {
 .second-bar {
     display: flex;
     justify-self: space-between;
+}
+
+#second-bar-text {
+    flex-direction: column;
     flex: 1;
 }
 
-.second-bar-text {
-    display: flex;
-    flex-direction: column;
+#second-bar-image {
+    flex: 2;
+    
 }
 
 #illustration-mockup {
-    width: 750px;
+    /*width: 750px;*/
+    max-width: 100%;
 }
 
 #get-started-button{
@@ -101,8 +106,38 @@ p {
 }
 
 .sixth-section {
+    display: flex;
     background-color: hsl(192, 100%, 9%);
+    padding: 5%;
+    justify-content: space-between;
+}
+
+#sixth-section-logo {
+    filter: brightness(0) invert(1);
+}
+
+.sixth-section-block {
+    flex: 1;
+}
+
+.b1 {
+    display: flex;
+    
+}
+
+.b2 {
+    display: flex;
+    
+}
+
+.b3 {
+    display: flex;
+}
+
+.social-media-icons {
+    width: 5%;
 }
 footer {
     background-color: hsl(192, 100%, 9%);
 }
+
