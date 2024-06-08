@@ -75,7 +75,8 @@ h1 {
     gap: 200px;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0.5px 0.5px 5px 5px hsl(208, 11%, 55%);
+    /*box-shadow: 0.5px 0.5px 5px 5px hsl(208, 11%, 55%);*/
+    box-shadow: 0.125px 0.125px 1.25px 1.25px hsl(208, 11%, 55%);
     border-radius: 10px;
     padding: 5%;
     margin: 5rem;
@@ -120,7 +121,7 @@ p {
 }
 
 #bottom-get-started {
-    width: 400px;
+    width: 60%;
 }
 
 .sixth-section {
