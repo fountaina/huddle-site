@@ -59,6 +59,9 @@ body {
 
 }
 
+.get-started-button:hover {
+    background-color: hsl(322, 90%, 80%);
+}
 h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
